@@ -1,0 +1,268 @@
+body {
+    background-color:rgb(46, 50, 51) ;
+}
+
+.text{
+    font-family: "Fjalla One";
+    text-align: center;
+    color:rgb(22, 53, 64 ) ;
+    font-size: large;
+}
+
+h1, h2{
+    font-family: "Fjalla One";
+    text-align: center;
+    color : white;
+    display: inline-block;
+    
+}
+
+h1{
+    color:rgb(22, 53, 64 );
+    margin: 5px 5px 5px 5px ;
+}
+
+h4{
+    color:rgb(22, 53, 64 );
+    margin: 5px 5px 5px 5px ;
+}
+
+.banner{
+    z-index: 4;
+    width: 110%;
+    height: 70%;
+    margin-left: -10%;
+}
+.above_panel_text{
+    z-index: 5;
+    position: absolute;
+    font-family: "Fjalla One";
+    margin-top: -30%;
+    text-align: Left;
+    color:white;
+    font-size: x-large;
+}
+
+/*banner*/
+
+.posting{
+    text-align: center;
+    margin-left: 5%;
+    background-color: white;
+    width: 26.6%;
+    height: 80%;
+}
+
+.posting2{
+    text-align: center;
+    margin-left: 36.6%;
+    background-color: white;
+    width: 26.6%;
+    height: 80%;
+}
+
+.posting3{
+    text-align: center;
+    margin-left: 68.2%;
+    background-color: white;
+    width: 26.6%;
+    height: 80%;
+}
+
+
+.name{
+    color: rgb(8, 40, 80);
+    font-family: "Fjalla One";
+    
+}
+
+.p2{
+    margin-top: -40.5%;
+    margin-left: 100%;
+}
+
+
+label{
+    font-size: xx-large;
+    font-family: "Fjalla One";
+    color: white;
+}
+
+.results{
+    text-align: center;
+    font-family: "Fjalla One";
+    color:white;
+    font-size: xxx-large;
+}
+
+
+/*form*/
+
+input[type=text] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border : 4px springgreen;
+    border-radius: 20px;
+    outline: none;
+  }
+
+input[type=text] :focus{
+    background-color: springgreen;
+
+}
+input[type=file]{
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border : 4px springgreen;
+    border-radius: 20px;
+    outline: none;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .custom-file-input::before {
+    font-family: "Fjalla One";
+    content: 'Choose an image of your product';
+    display: inline-block;
+    background: whitesmoke;
+    color:black;
+    border: 1px solid #999;
+    border-radius: 20px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 10pt;
+  }
+  .custom-file-input:hover::before {
+    border-color: black;
+  }
+  .custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  }
+
+input{
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border : 4px springgreen;
+    border-radius: 20px;
+    outline: none;
+  }
+
+input[type=password] :focus{
+    background-color: springgreen;
+}
+
+
+.inputtext{
+    font-family: "Fjalla One";
+    text-emphasis: none;
+}
+
+.dropdown{
+    font-family: "Fjalla One";
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border : 4px springgreen;
+    border-radius: 20px;
+    outline: none;
+}
+
+.filler{
+    font-family: "Fjalla One";
+    color:rgb(135, 149, 153 ); 
+}
+
+/*form*/
+
+
+/*nav bar*/
+.topnav {
+    font-family: "Fjalla One";
+    background-color: rgb(149, 161, 180);
+    overflow: hidden;
+    position: fixed; 
+    margin-left: -1%;
+    margin-top: -4%;
+    width: 110%;
+  }
+  
+.topnav a {
+    font-family: "Fjalla One";
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    font-family: "Fjalla One";
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    font-family: "Fjalla One";
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+/*nav bar*/
+
+.text{
+    font-family: "Fjalla One";
+    text-align: center;
+    color:rgb(255, 255,255) ;
+    font-size: xxx-large;
+}
+.text1{
+    font-family: "Fjalla One";
+    text-align: left;
+    color:rgb(255, 255,255) ;
+    font-size: xxx-large;
+    margin-left: 50px;
+}
+.text2{
+    font-family: "Fjalla One";
+    text-align: center;
+    color:rgb(168, 31, 31) ;
+    font-size: xxx-large;
+}
+.text3{
+    margin-top: 50px;
+    font-family: "Fjalla One";
+    text-align: center;
+    color:rgb(255, 255, 255) ;
+    font-size: xxx-large;
+
+}
+
+.text4{
+
+    margin-top: -425px;
+    margin-right: 50px;
+    font-family: "Fjalla One";
+    text-align: right;
+    color:rgb(255, 255, 255) ;
+    font-size: x-large;
+
+
+}
+
+.about{
+    color:black;
+    background-color: rgb(141, 182, 184, 0.3);
+}

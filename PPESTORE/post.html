@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPEbay Post</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap">
+</head>
+<body>
+    <div class="topnav">
+        <img style = "margin-left: 0.6%;" src= "favicon.png" height = "50px", witdh = '50px'></img>
+        <div style = "margin-left:-2%">
+            <a style = "margin-left:37%" href="index.php">Home</a>
+            <a href = "post.html" class = "active">Post</a>
+            <a href="support.html">Support</a>
+            <a href="about.html">About</a>
+            <a href = "delete.html"> Delete</a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h2 style = "margin-left:25%;">
+         Fill out this form making sure not to miss a single field, 
+        <br> Put in a phone # or an email which will allow people to contact you about offers, 
+        <br> please put in a password that you will remember,<br> which will enable you to delete your post once your product has been sold
+        <br> and please upload a picture of the product you wish to sell
+    </h2>
+    <form action ="insert.php" method = "post" class = "text" enctype="multipart/form-data">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name='fname' placeholder="Your First Name..."class = inputtext><br>
+
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"placeholder="Your Last Name/Initial..."class = inputtext><br>
+
+        <label for="equipment">Type of Equipment</label><br>
+        <select id="equipment" name='equipment' placeholder = "What type of equipment are you planning to sell" class = dropdown>
+            <option value="type" class = "filler">Type of Equipment</option>
+            <option value="masks">Masks</option>
+            <option value="gloves">Gloves</option>
+            <option value="hand sanitizer">Hand Sanitizer</option>
+            <option value="gowns">Gowns</option>
+            <option value="not listed">Not listed</option>
+        </select><br>
+        <label for="amount">Quantity</label><br>
+        <input type="text" id="amount" name="amount"placeholder="How many units are you selling"class = inputtext><br>
+        
+
+        <label for="price">Price</label><br>
+        <input type="text" id="price" name="price"placeholder="Asking Price"class = inputtext><br>
+
+        <label for="description">Description</label><br>
+        <input type="text" id="info" name="info"placeholder="Useful information about the product" class = inputtext><br>
+
+        <label for="description">CONTACT INFO</label><br>
+        <input type="text" id="contact" name="contact"placeholder="(___)-___-___ or ________@example.com"class = inputtext><br>
+
+        <label for="password">Deletion Password</label><br>
+        <input type="password" id="password" name="password"placeholder="secure password" class = inputtext><br>
+
+        <input type="file" name="files" class="custom-file-input"/><br>
+
+        <input type="submit" value="Post it!" name="submit" />
+    </form>
+    
+</body>

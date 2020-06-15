@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPEbay Post</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap">
+</head>
+<body>
+    <div class="topnav">
+        <img style = "margin-left: 0.6%;" src= "favicon.png" height = "50px", witdh = '50px'></img>
+        <div style = "margin-left:-2%">
+            <a style = "margin-left:37%" href="index.php">Home</a>
+            <a href = "post.html" >Post</a>
+            <a href="support.html">Support</a>
+            <a href="about.html">About</a>
+            <a class = "active" href = "delete.html"> Delete</a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+        <form action ="delete.php" method = "post" class = "text" enctype="multipart/form-data">
+            <label for="Deletion Password">Your Deletion Password</label><br>
+            <input type="text" id="password" name="password" placeholder="Your secure password"class = inputtext><br>
+            <input type="submit" value="Delete Post" name="submit" />
+        </form>
+    </div>
